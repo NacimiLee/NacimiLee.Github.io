@@ -268,7 +268,7 @@
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2020/05/16/hello-world/">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2020/05/16/Question/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="伊丽莎白的腿毛">
@@ -287,7 +287,7 @@
         
           <h1 class="post-title" itemprop="name headline">
                 
-                <a class="post-title-link" href="/2020/05/16/hello-world/" itemprop="url">Questions</a></h1>
+                <a class="post-title-link" href="/2020/05/16/Question/" itemprop="url">Questions</a></h1>
         
 
         <div class="post-meta">
@@ -339,18 +339,20 @@
       
         
           
-            <h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/one-command-deployment.html" target="_blank" rel="noopener">Deployment</a></p>
+            <h3 id="001-hexo-init-卡住下载总是停留在26-34-的解决方法"><a href="#001-hexo-init-卡住下载总是停留在26-34-的解决方法" class="headerlink" title="001 hexo init 卡住下载总是停留在26% 34%的解决方法"></a>001 hexo init 卡住下载总是停留在26% 34%的解决方法</h3><p>1、找到梯子用的端口<br>2、在git bash或者cmd控制台输入</p>
+<blockquote>
+<p>git config –global http.proxy localhost:xxxx  </p>
+</blockquote>
+<p> 上面xxxx输入自己代理端口号，四位数<br>例如我的是：  </p>
+<blockquote>
+<p>git config –global http.proxy localhost:1080</p>
+</blockquote>
+<p>2、<br>输入再执行hexo init </p>
+<h3 id="002-如何将Google-Chrome-安装到其他文件夹路径"><a href="#002-如何将Google-Chrome-安装到其他文件夹路径" class="headerlink" title="002 如何将Google Chrome 安装到其他文件夹路径"></a>002 如何将Google Chrome 安装到其他文件夹路径</h3><p>首先我们要知道，chrome的默认安装路径是 C:\Program Files (x86)\Google\Chrome<br>以下是操作方法：<br>1、先不要安装chrome浏览器<br>2、去c盘确认 C:\Program Files (x86)目录下没有Google这个文件夹，有的话就删掉，没有就下一步(mklink会自动创建Chrome文件夹)<br>3、以将chrome安装在D盘为例<br>   去D盘提前建立Chrome文件夹。D:\Chrome<br>4、在cmd命令行中输入：</p>
+<blockquote>
+<p>mklink/d “C:\Program Files (x86)\Google” “D:\Chrome”  </p>
+</blockquote>
+<p>然后回车键<br>5、如果出现<br>为 C:\Program Files (x86)\Google&lt;&lt;==&gt;&gt;D:\Chrome 创建的符号链接。就表示成功了。</p>
 
           
         
