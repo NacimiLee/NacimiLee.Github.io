@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search> 
+  
+  
+    
+    <entry>
+      <title>Website</title>
+      <link href="/2020/05/16/Records/Website/"/>
+      <url>/2020/05/16/Records/Website/</url>
+      
+        <content type="html"><![CDATA[<h2 id="001-hexo优化"><a href="#001-hexo优化" class="headerlink" title="001 hexo优化"></a>001 hexo优化</h2><p><a href="https://vic.kim/2019/05/25/Hexo%E5%8D%9A%E5%AE%A2%E4%BC%98%E5%8C%96%E4%B9%8BNext%E4%B8%BB%E9%A2%98%E7%BE%8E%E5%8C%96/" target="_blank" rel="noopener">https://vic.kim/2019/05/25/Hexo%E5%8D%9A%E5%AE%A2%E4%BC%98%E5%8C%96%E4%B9%8BNext%E4%B8%BB%E9%A2%98%E7%BE%8E%E5%8C%96/</a></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> Websites </category>
+          
+      </categories>
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>fanya</title>
+      <link href="/2020/05/16/Book%20Notes/fanya/"/>
+      <url>/2020/05/16/Book%20Notes/fanya/</url>
+      
+        <content type="html"><![CDATA[<p>sssss</p><p>要显示菜单?<br>dongle<br>怎么弄一个搜索呀<br>这个是需要安装插件的</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> Book Notes </category>
+          
+      </categories>
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Questions</title>
+      <link href="/2020/05/16/Records/Question/"/>
+      <url>/2020/05/16/Records/Question/</url>
+      
+        <content type="html"><![CDATA[<h3 id="001-hexo-init-卡住下载总是停留在26-34-的解决方法"><a href="#001-hexo-init-卡住下载总是停留在26-34-的解决方法" class="headerlink" title="001 hexo init 卡住下载总是停留在26% 34%的解决方法"></a>001 hexo init 卡住下载总是停留在26% 34%的解决方法</h3><p>1、找到梯子用的端口<br>2、在git bash或者cmd控制台输入</p><blockquote><p>git config –global http.proxy localhost:xxxx  </p></blockquote><p> 上面xxxx输入自己代理端口号，四位数<br>例如我的是：  </p><blockquote><p>git config –global http.proxy localhost:1080</p></blockquote><p>2、<br>输入再执行hexo init </p><h3 id="002-如何将Google-Chrome-安装到其他文件夹路径"><a href="#002-如何将Google-Chrome-安装到其他文件夹路径" class="headerlink" title="002 如何将Google Chrome 安装到其他文件夹路径"></a>002 如何将Google Chrome 安装到其他文件夹路径</h3><p>首先我们要知道，chrome的默认安装路径是 C:\Program Files (x86)\Google\Chrome<br>以下是操作方法：<br>1、先不要安装chrome浏览器<br>2、去c盘确认 C:\Program Files (x86)目录下没有Google这个文件夹，有的话就删掉，没有就下一步(mklink会自动创建Chrome文件夹)<br>3、以将chrome安装在D盘为例<br>   去D盘提前建立Chrome文件夹。D:\Chrome<br>4、在cmd命令行中输入：</p><blockquote><p>mklink/d “C:\Program Files (x86)\Google” “D:\Chrome”  </p></blockquote><p>然后回车键<br>5、如果出现<br>为 C:\Program Files (x86)\Google&lt;&lt;==&gt;&gt;D:\Chrome 创建的符号链接。就表示成功了。</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> Records </category>
+          
+      </categories>
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>test</title>
+      <link href="/2020/05/16/CSharp%20Base/test/"/>
+      <url>/2020/05/16/CSharp%20Base/test/</url>
+      
+        <content type="html"><![CDATA[<blockquote><p>所有的文章都写_posts目录下<br>不能类似于公司那个 分文件夹么<br>可以啊<br>但是也是post目录下</p></blockquote>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> CSharp Base </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+  
+  
+    
+    
+    <entry>
+      <title>categories</title>
+      <link href="/categories/index.html"/>
+      <url>/categories/index.html</url>
+      
+        <content type="html"><![CDATA[]]></content>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>tags</title>
+      <link href="/tags/index.html"/>
+      <url>/tags/index.html</url>
+      
+        <content type="html"><![CDATA[]]></content>
+      
+    </entry>
+    
+    
+  
+</search>
